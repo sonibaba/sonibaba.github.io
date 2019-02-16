@@ -28,3 +28,10 @@ html {
             margin-left: -200px;
             font: condensed 120% sans-serif;
         }
+a{
+	color: white;
+	font: condensed 120% sans-serif;
+}
+a:hover{
+	color: blue;
+}
