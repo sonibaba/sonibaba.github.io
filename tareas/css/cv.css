@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.parallax { 
+    position: relative;
+    background-image: url("../img/puente.jpg");
+    margin-left: 0%;
+    margin-top: 0%;
+    height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+div#general{
+    position: relative;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 70%;
+    height: 800px;
+}
+
+#cabecera{
+    position: relative;
+    width: 68%;
+    height: 30%;
+    background-color: #8e44ad;
+    border-radius: 15px 0px 0px 0px;
+}
+
+#cuerpo{
+    position: relative;
+    margin-top: 1%;
+    width: 68%;
+    height: 69%;
+    background-color: #e74c3c;
+    border-radius: 0px 0px 15px 15px;
+}
+
+h1.cabecera{
+    position: absolute;
+    top: 1%;
+    background-color: #27ae60;
+    color: white;
+}
+
+#info{
+    position: relative;
+    float: right;
+    width: 31%;
+    height: 60%;
+    background-color: #27ae60;
+    border-radius: 0px 15px 0px 0px;
+}
+
+#contacto{
+    position: relative;
+    bottom: 39%;
+    float: right;
+    width: 31%;
+    height: 39%;
+    background-color: #95a5a6;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.info_dos{
+    position: relative;
+    width: 50%;
+    height: 20%;
+    left: 25%;
+    top: 30%;
+}
+
+.info_principal{    
+    position: relative;
+    width: 50%;
+    height: 80%;
+    left: 26%;
+    top: 45%;
+}
+
+.foto{
+    width: 28%;
+    border-radius: 100%;
+    margin: auto;
+	display:block;
+}
+.foto:hover{
+    -webkit-transition:all .9s ease; /* Safari y Chrome */
+    -webkit-transform:scale(1.1);
+-moz-transform:scale(1.1);
+-ms-transform:scale(1.1);
+-o-transform:scale(1.1);
+transform:scale(1.1);
+}
+
+h1{
+    text-align: center;
+    font-family: Anton;
+    color: #d35400;
+}
