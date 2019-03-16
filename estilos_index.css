@@ -35,12 +35,14 @@ html {
     position: absolute;
     margin-left: -200px;
     font: condensed 120% sans-serif;
-    background-color: black;
+
 }
 
 a {
     color: white;
+    font-size: 250%;
     font: condensed 120% sans-serif;
+    -webkit-text-stroke: 1px black;
 }
 
 a:hover {
